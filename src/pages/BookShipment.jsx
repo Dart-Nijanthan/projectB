@@ -214,7 +214,7 @@ const BookShipment = () => {
             </Button>
           </Form.Item>
         </Form>
-      </div>
+      </div>.
     </div>
   );
 };
