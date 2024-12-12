@@ -1,0 +1,42 @@
+:root {
+  --textWhite: #ffffff;
+  --homeBG: #f0f9ff;
+  --blue: #0366d6;
+  --textGrey: #555;
+  --orange: #ff6f61;
+  --yellow: #ffd420;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 7px;
+  }
+}
